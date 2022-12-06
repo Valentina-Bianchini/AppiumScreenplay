@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37b7174c-8ca0-4901-8701-a2c88ba3a3ad" name="Changes" comment="Primer commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configuraciones/AndroidConfigEmulador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/Resultado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/IngresarUserYPass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/RegistrarNuevoUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/userinterfaces/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/AndroidRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/AndroidSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/app/Android-NativeDemoApp-0.4.0.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/loginOK.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/registroUsuario.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +105,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670014165071</updated>
     </task>
+    <task id="LOCAL-00001" summary="Primer commit">
+      <created>1670342245988</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670342245988</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
