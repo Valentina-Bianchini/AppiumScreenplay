@@ -3,6 +3,7 @@ Feature: Realizar login en app de prueba
   Quiero ingresar usuario y contraseña
   Para verficar correcto logueo
 
+  @si
   Scenario Outline: Realizar login en app de prueba
 
     Given usuario es nuevo en app
@@ -13,4 +14,4 @@ Feature: Realizar login en app de prueba
 
     Examples:
       |usuario                          |contrasenia     |
-      |christina.aguilera@neoris.com    |GenieInABottle  |
+      |n_sync_boyband@gmail.com         |ByeByeBye       |

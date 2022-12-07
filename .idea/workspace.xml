@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37b7174c-8ca0-4901-8701-a2c88ba3a3ad" name="Changes" comment="Primer commit">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/registroUsuario.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/userinterfaces/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userinterfaces/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/AndroidRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/AndroidRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/AndroidSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/AndroidSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/loginOK.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/loginOK.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/registroUsuario.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/registroUsuario.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/valentina.bianchini/Desktop/Appium curso/AppiumScreenplay&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/valentina.bianchini/Desktop/Appium curso/Appium-TAU-PageObject&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -53,7 +57,27 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AndroidRunner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Realizar login en app de prueba (1)">
+    <configuration name="Scenario: Realizar login en app de prueba (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/loginOK.feature" />
+      <option name="GLUE" value="stepdefinitions net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="AppiumScreenplay" />
+      <option name="NAME_FILTER" value="^Realizar login en app de prueba$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Realizar login en app de prueba$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Realizar login en app de prueba" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Realizar login en app de prueba" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/loginOK.feature" />
@@ -63,6 +87,26 @@
       <option name="NAME_FILTER" value="^Realizar login en app de prueba$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Realizar login en app de prueba$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Realizar login en app de prueba" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Realizar registro en app de clarin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/registroUsuario.feature" />
+      <option name="GLUE" value="stepdefinitions net.serenitybdd.cucumber.actors" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="AppiumScreenplay" />
+      <option name="NAME_FILTER" value="^Realizar registro en app de clarin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Realizar registro en app de clarin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Realizar registro en app de clarin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -91,6 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Realizar login en app de prueba (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Realizar registro en app de clarin" />
         <item itemvalue="JUnit.AndroidRunner" />
         <item itemvalue="Cucumber Java.Scenario: Realizar login en app de prueba" />
       </list>
@@ -112,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670342245988</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Primer commit">
+      <created>1670347079043</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670347079043</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
